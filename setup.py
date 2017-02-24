@@ -10,7 +10,7 @@ setup(
     author='Lift Interactive',
     author_email='dev+pypi@liftinteractive.com',
     url='https://github.com/l1f7/lift-balloons',
-    license=open('LICENSE').read(),
+    license='MIT',
     packages=find_packages(exclude=['tests']),
     include_package_data=True,
     # install_requires=[],

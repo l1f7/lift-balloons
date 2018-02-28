@@ -6,7 +6,7 @@ setup(
     name='lift-balloons',
     version=__version__,
     description='A collection of helpful Django template tools for front-enders.',
-    long_description=open('README.rst').read(),
+    long_description='',
     author='Lift Interactive',
     author_email='dev+pypi@liftinteractive.com',
     url='https://github.com/l1f7/lift-balloons',

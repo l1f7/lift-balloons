@@ -99,3 +99,8 @@ def get_param_replace(request, field=None, value=None):
         dict_[field] = value
 
     return dict_.urlencode()
+
+
+@register.filter
+def get_list(dictionary, key):
+    return dictionary.getlist(key)
